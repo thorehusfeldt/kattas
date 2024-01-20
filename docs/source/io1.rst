@@ -19,7 +19,16 @@ Read a string, either “Hello” or “Hallo”, and repeat it twice.
 
 Intended solution:
 
+Use a variable to store input:
+
 .. literalinclude:: ../../problems/echoecho/submissions/accepted/th.py
+   :lines: 3-
+
+Other solutions:
+
+Since there are only two possible inputs, we can be less general, avoiding the variable but using selection:
+
+.. literalinclude:: ../../problems/echoecho/submissions/accepted/th-if.py
    :lines: 3-
 
 Wrong ideas:
