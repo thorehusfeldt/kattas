@@ -19,13 +19,13 @@ Read a string, either “Hello” or “Hallo”, and repeat it twice.
 
 Intended solution:
 
-.. code-block:: ../../problems/echoecho/submissions/accepted/th.py
+.. literalinclude:: ../../problems/echoecho/submissions/accepted/th.py
    :lineno-start: 3
 
 Wrong ideas:
 
-.. code-block:: ../../problems/echoecho/submissions/run_time_error/read_twice.py
+.. literalinclude:: ../../problems/echoecho/submissions/wrong_answer/single-echo.py
    :lineno-start: 3
 
-.. code-block:: ../../problems/echoecho/submissions/run_time_error/read_twice.py
+.. literalinclude:: ../../problems/echoecho/submissions/run_time_error/read_twice.py
    :lineno-start: 3
