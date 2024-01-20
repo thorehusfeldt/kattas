@@ -1,0 +1,10 @@
+name:
+  da: 'Ekko ekko'
+  en: 'Echo echo'
+author: Thore Husfeldt
+source: problems
+source_url: 
+license: educational
+rights_owner: author
+# 'default', 'custom', or 'custom interactive'
+validation: default

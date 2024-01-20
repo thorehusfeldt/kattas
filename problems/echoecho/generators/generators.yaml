@@ -1,0 +1,19 @@
+solution: /submissions/accepted/th.py
+
+data:
+  sample:
+    data:
+      - '':
+          in: Hello
+          ans: |
+            Hello
+            Hello
+  secret:
+    data:
+      - 'Hej':
+          in: Hallo
+          ans: |
+            Hallo
+            Hallo
+    include:
+      - sample

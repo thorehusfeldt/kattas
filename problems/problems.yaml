@@ -1,0 +1,6 @@
+- id: echoecho
+  label: A
+  name:
+    en: echoecho
+  rgb: '#000000'
+  time_limit: 1.0
