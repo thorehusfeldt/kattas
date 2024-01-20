@@ -10,4 +10,5 @@ Contents
 
 .. toctree::
 
+   io1
    arrays
