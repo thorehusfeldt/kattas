@@ -1,0 +1,61 @@
+solution: /submissions/accepted/th.py
+
+data:
+  invalid_inputs:
+    data:
+      c: { in: abca }
+      too_long: randomstring.py -n 500001 --seed {seed:0}
+  invalid_answers:
+    data:
+      preceding_whitespace:
+        in: a
+        ans: " a"
+      trailing_whitespace:
+        in: a
+        ans: "a "
+      extra_line:
+        in: a
+        ans: "a\n\n"
+  invalid_outputs:
+    data:
+      flipped:
+        in: bb
+        ans: "01"
+        out: "10"
+  sample:
+    data:
+      - '':
+          in: abba
+          ans: a01a
+      - '':
+          in: bbab
+          ans: 01a0
+      - '':
+          in: bbbab
+          ans: 010a1
+      - '':
+          in: a
+          ans: a
+  secret:
+    data:
+      - 'b':
+          in: b
+          ans: "0"
+      - 'aa':
+          in: aa
+          ans: aa
+      - 'ab':
+          in: ab
+          ans: a0
+      - 'ba':
+          in: ba
+          ans: 0a
+      - 'ba':
+          in: bb
+          ans: "01"
+      - 1K_random_1: randomstring.py -n 1000 --seed {seed:0}
+      - 1K_random_2: randomstring.py -n 1000 --seed {seed:1}
+      - long_a: randomstring.py -n 200000 -p 0
+      - long_b: randomstring.py -n 200000 -p 1
+      - long_mostly_b: randomstring.py -n 500000 -p 0.9 --seed {seed}
+      - long_random: randomstring.py -n 500000 --seed {seed:0}
